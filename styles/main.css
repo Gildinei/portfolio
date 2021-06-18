@@ -3,24 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 main {
     display: flex;
+    background-color: #222;
+    border-bottom: chartreuse solid 10px;
+    height: 100vh;
 }
 
 section {
     width: 50vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.portfolio {
-    background: tomato;
-}
-
-.blog {
-    background: turquoise;
 }
 
 h1,a {
